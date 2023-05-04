@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="success.css">
+    <title>Congratulation</title>
+</head>
+<body>
+ <div class="">
+  <h1>Welcome to the dashboard</h1> 
+  <p>You are now logged in. </p>
+</div>   
+ <div class="container">
+  <button type="submit" class="btn" onclick="openPopup()">click here to continue</button>
+ <div class="popup" id="popup">
+ <img src="tick.jpeg" alt="">
+ <h2>Congratulations</h2>
+ <p>Your details have been successfully submitted. Thank you!</p>
+ <button type="button" onclick="closePop()"><a href="payment.html">OK</a></button>
+ </div>
+ </div>
+
+ <script>
+let popup = document.getElementById("popup");
+
+function openPopup()
+{
+  popup.classList.add("open-popup");
+}
+function closePopup()
+{
+  popup.classList.remove("open-popup");
+}
+
+ </script>
+</body>
+</html>
