@@ -1,2 +1,2 @@
-# Crowdfunding-web application
+# School Crowdfunding-web application
 
